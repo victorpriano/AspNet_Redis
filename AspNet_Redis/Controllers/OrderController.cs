@@ -58,19 +58,5 @@ namespace AspNet_Redis.Controllers
             }
 
         }
-
-        //[HttpGet("orders")]
-        //public async Task<ActionResult<IEnumerable<Order>>> GetOrders()
-        //{
-        //    try
-        //    {
-        //        var orders = await _context.Orders.AsNoTracking().ToListAsync();
-        //        return Ok(orders);
-        //    }
-        //    catch (Exception)
-        //    {
-        //        return StatusCode(Convert.ToInt32(HttpStatusCode.InternalServerError), "Erro ao tentar obter pedidos do banco de dados.");
-        //    }
-        //}
     }
 }
